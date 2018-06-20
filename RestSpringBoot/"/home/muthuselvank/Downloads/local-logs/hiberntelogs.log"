@@ -1,0 +1,233 @@
+2018-06-20 11:02:20.059  INFO 6422 --- [main] c.r.RestSpringBootApplication            : Starting RestSpringBootApplication on bblpt0420 with PID 6422 (/home/muthuselvank/Documents/workspace-sts-3.9.3.RELEASE/RestSpringBoot/target/classes started by muthuselvank in /home/muthuselvank/Documents/workspace-sts-3.9.3.RELEASE/RestSpringBoot)
+2018-06-20 11:02:20.079  INFO 6422 --- [main] c.r.RestSpringBootApplication            : No active profile set, falling back to default profiles: default
+2018-06-20 11:02:20.672  INFO 6422 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 11:02:20 IST 2018]; root of context hierarchy
+2018-06-20 11:02:22.415  INFO 6422 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-20 11:02:23.091  INFO 6422 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 2018 (http)
+2018-06-20 11:02:23.105  INFO 6422 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-06-20 11:02:23.107  INFO 6422 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-06-20 11:02:23.264  INFO 6422 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-20 11:02:23.264  INFO 6422 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2600 ms
+2018-06-20 11:02:23.518  INFO 6422 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-20 11:02:23.525  INFO 6422 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-20 11:02:23.526  INFO 6422 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-20 11:02:23.527  INFO 6422 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-20 11:02:23.527  INFO 6422 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-20 11:02:24.368  INFO 6422 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 11:02:20 IST 2018]; root of context hierarchy
+2018-06-20 11:02:24.550  INFO 6422 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-20 11:02:24.552  INFO 6422 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-20 11:02:24.630  INFO 6422 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 11:02:24.631  INFO 6422 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 11:02:24.706  INFO 6422 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 11:02:26.282  INFO 6422 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-20 11:02:26.386  INFO 6422 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 2018 (http)
+2018-06-20 11:02:26.397  INFO 6422 --- [main] c.r.RestSpringBootApplication            : Started RestSpringBootApplication in 7.034 seconds (JVM running for 8.261)
+2018-06-20 11:58:17.179  INFO 6422 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-06-20 11:58:17.180  INFO 6422 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 11:02:20 IST 2018]; root of context hierarchy
+2018-06-20 11:58:17.199  INFO 6422 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-06-20 12:04:04.068  INFO 10430 --- [main] c.r.RestSpringBootApplication            : Starting RestSpringBootApplication on bblpt0420 with PID 10430 (/home/muthuselvank/Documents/workspace-sts-3.9.3.RELEASE/RestSpringBoot/target/classes started by muthuselvank in /home/muthuselvank/Documents/workspace-sts-3.9.3.RELEASE/RestSpringBoot)
+2018-06-20 12:04:04.073  INFO 10430 --- [main] c.r.RestSpringBootApplication            : No active profile set, falling back to default profiles: default
+2018-06-20 12:04:04.559  INFO 10430 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 12:04:04 IST 2018]; root of context hierarchy
+2018-06-20 12:04:06.262  INFO 10430 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-20 12:04:06.767  INFO 10430 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 2018 (http)
+2018-06-20 12:04:06.781  INFO 10430 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-06-20 12:04:06.783  INFO 10430 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-06-20 12:04:06.915  INFO 10430 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-20 12:04:06.916  INFO 10430 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2363 ms
+2018-06-20 12:04:07.153  INFO 10430 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-20 12:04:07.159  INFO 10430 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-20 12:04:07.160  INFO 10430 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-20 12:04:07.161  INFO 10430 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-20 12:04:07.161  INFO 10430 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-20 12:04:07.807  INFO 10430 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 12:04:04 IST 2018]; root of context hierarchy
+2018-06-20 12:04:07.889  INFO 10430 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.rideestimate.HomeController.hello()
+2018-06-20 12:04:07.891  INFO 10430 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.rideestimate.HomeController.index()
+2018-06-20 12:04:07.891  INFO 10430 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public java.lang.String com.rideestimate.HomeController.save()
+2018-06-20 12:04:07.898  INFO 10430 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-20 12:04:07.899  INFO 10430 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-20 12:04:07.951  INFO 10430 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 12:04:07.952  INFO 10430 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 12:04:08.013  INFO 10430 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 12:04:08.977  INFO 10430 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-20 12:04:09.028  INFO 10430 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 2018 (http)
+2018-06-20 12:04:09.035  INFO 10430 --- [main] c.r.RestSpringBootApplication            : Started RestSpringBootApplication in 5.47 seconds (JVM running for 6.332)
+2018-06-20 12:04:23.604  INFO 10430 --- [http-nio-2018-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-20 12:04:23.605  INFO 10430 --- [http-nio-2018-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-20 12:04:23.632  INFO 10430 --- [http-nio-2018-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2018-06-20 12:04:33.718 ERROR 10430 --- [http-nio-2018-exec-2] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-2018-exec-2] Exception processing template "{"data":{"nextCallAfter":5,"p2p":{"categories":[{"id":"auto","displayName":"Auto","canRideNow":true,"canRideLater":false,"needDropLocation":true,"eta":{"value":4,"unit":"min"}},{"id":"micro","displayName":"Micro","canRideNow":true,"canRideLater":true,"needDropLocation":true,"eta":{"value":7,"unit":"min"}},{"id":"mini","displayName":"Mini","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":4,"unit":"min"}},{"id":"share","displayName":"Share","canRideNow":true,"canRideLater":false,"needDropLocation":true,"eta":{"value":3,"unit":"min"}},{"id":"prime","displayName":"Prime Sedan","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":5,"unit":"min"}},{"id":"prime_play","displayName":"Prime Play","canRideNow":true,"canRideLater":false,"needDropLocation":false,"eta":{"value":7,"unit":"min"}},{"id":"suv","displayName":"Prime SUV","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":11,"unit":"min"}},{"id":"exec","displayName":"Prime Exec","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":14,"unit":"min"}}],"rideLater":{"validDays":6,"validTime":60}},"fareAPIParams":{"shareCategories":"share"}},"error":null}": Error resolving template "{"data":{"nextCallAfter":5,"p2p":{"categories":[{"id":"auto","displayName":"Auto","canRideNow":true,"canRideLater":false,"needDropLocation":true,"eta":{"value":4,"unit":"min"}},{"id":"micro","displayName":"Micro","canRideNow":true,"canRideLater":true,"needDropLocation":true,"eta":{"value":7,"unit":"min"}},{"id":"mini","displayName":"Mini","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":4,"unit":"min"}},{"id":"share","displayName":"Share","canRideNow":true,"canRideLater":false,"needDropLocation":true,"eta":{"value":3,"unit":"min"}},{"id":"prime","displayName":"Prime Sedan","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":5,"unit":"min"}},{"id":"prime_play","displayName":"Prime Play","canRideNow":true,"canRideLater":false,"needDropLocation":false,"eta":{"value":7,"unit":"min"}},{"id":"suv","displayName":"Prime SUV","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":11,"unit":"min"}},{"id":"exec","displayName":"Prime Exec","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":14,"unit":"min"}}],"rideLater":{"validDays":6,"validTime":60}},"fareAPIParams":{"shareCategories":"share"}},"error":null}", template might not exist or might not be accessible by any of the configured Template Resolvers
+2018-06-20 12:04:33.732 ERROR 10430 --- [http-nio-2018-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "{"data":{"nextCallAfter":5,"p2p":{"categories":[{"id":"auto","displayName":"Auto","canRideNow":true,"canRideLater":false,"needDropLocation":true,"eta":{"value":4,"unit":"min"}},{"id":"micro","displayName":"Micro","canRideNow":true,"canRideLater":true,"needDropLocation":true,"eta":{"value":7,"unit":"min"}},{"id":"mini","displayName":"Mini","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":4,"unit":"min"}},{"id":"share","displayName":"Share","canRideNow":true,"canRideLater":false,"needDropLocation":true,"eta":{"value":3,"unit":"min"}},{"id":"prime","displayName":"Prime Sedan","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":5,"unit":"min"}},{"id":"prime_play","displayName":"Prime Play","canRideNow":true,"canRideLater":false,"needDropLocation":false,"eta":{"value":7,"unit":"min"}},{"id":"suv","displayName":"Prime SUV","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":11,"unit":"min"}},{"id":"exec","displayName":"Prime Exec","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":14,"unit":"min"}}],"rideLater":{"validDays":6,"validTime":60}},"fareAPIParams":{"shareCategories":"share"}},"error":null}", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "{"data":{"nextCallAfter":5,"p2p":{"categories":[{"id":"auto","displayName":"Auto","canRideNow":true,"canRideLater":false,"needDropLocation":true,"eta":{"value":4,"unit":"min"}},{"id":"micro","displayName":"Micro","canRideNow":true,"canRideLater":true,"needDropLocation":true,"eta":{"value":7,"unit":"min"}},{"id":"mini","displayName":"Mini","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":4,"unit":"min"}},{"id":"share","displayName":"Share","canRideNow":true,"canRideLater":false,"needDropLocation":true,"eta":{"value":3,"unit":"min"}},{"id":"prime","displayName":"Prime Sedan","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":5,"unit":"min"}},{"id":"prime_play","displayName":"Prime Play","canRideNow":true,"canRideLater":false,"needDropLocation":false,"eta":{"value":7,"unit":"min"}},{"id":"suv","displayName":"Prime SUV","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":11,"unit":"min"}},{"id":"exec","displayName":"Prime Exec","canRideNow":true,"canRideLater":true,"needDropLocation":false,"eta":{"value":14,"unit":"min"}}],"rideLater":{"validDays":6,"validTime":60}},"fareAPIParams":{"shareCategories":"share"}},"error":null}", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2018-06-20 12:07:15.043 ERROR 10430 --- [http-nio-2018-exec-6] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-2018-exec-6] Exception processing template "Hello!": Error resolving template "Hello!", template might not exist or might not be accessible by any of the configured Template Resolvers
+2018-06-20 12:07:15.050 ERROR 10430 --- [http-nio-2018-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "Hello!", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "Hello!", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011) ~[thymeleaf-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190) ~[thymeleaf-spring4-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1257) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1037) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:980) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846) ~[spring-webmvc-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:230) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52) ~[tomcat-embed-websocket-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:89) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:77) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) ~[spring-web-4.3.4.RELEASE.jar:4.3.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:192) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:165) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198) ~[tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:108) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:472) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:349) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:784) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:802) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1410) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_151]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_151]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-8.5.6.jar:8.5.6]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_151]
+
+2018-06-20 12:09:09.959  INFO 10430 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-06-20 12:09:09.960  INFO 10430 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 12:04:04 IST 2018]; root of context hierarchy
+2018-06-20 12:09:09.973  INFO 10430 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-06-20 12:13:15.775  INFO 11004 --- [main] c.r.RestSpringBootApplication            : Starting RestSpringBootApplication on bblpt0420 with PID 11004 (/home/muthuselvank/Documents/workspace-sts-3.9.3.RELEASE/RestSpringBoot/target/classes started by muthuselvank in /home/muthuselvank/Documents/workspace-sts-3.9.3.RELEASE/RestSpringBoot)
+2018-06-20 12:13:15.779  INFO 11004 --- [main] c.r.RestSpringBootApplication            : No active profile set, falling back to default profiles: default
+2018-06-20 12:13:16.311  INFO 11004 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 12:13:16 IST 2018]; root of context hierarchy
+2018-06-20 12:13:17.839  INFO 11004 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-20 12:13:18.317  INFO 11004 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 2018 (http)
+2018-06-20 12:13:18.332  INFO 11004 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-06-20 12:13:18.334  INFO 11004 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-06-20 12:13:18.443  INFO 11004 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-20 12:13:18.445  INFO 11004 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2147 ms
+2018-06-20 12:13:18.637  INFO 11004 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-20 12:13:18.641  INFO 11004 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-20 12:13:18.642  INFO 11004 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-20 12:13:18.642  INFO 11004 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-20 12:13:18.642  INFO 11004 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-20 12:13:19.229  INFO 11004 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 12:13:16 IST 2018]; root of context hierarchy
+2018-06-20 12:13:19.295  INFO 11004 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.rideestimate.HomeController.hello()
+2018-06-20 12:13:19.296  INFO 11004 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.rideestimate.HomeController.index()
+2018-06-20 12:13:19.296  INFO 11004 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.rideestimate.HomeController.save()
+2018-06-20 12:13:19.301  INFO 11004 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-20 12:13:19.302  INFO 11004 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-20 12:13:19.343  INFO 11004 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 12:13:19.344  INFO 11004 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 12:13:19.392  INFO 11004 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 12:13:20.368  INFO 11004 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-20 12:13:20.436  INFO 11004 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 2018 (http)
+2018-06-20 12:13:20.443  INFO 11004 --- [main] c.r.RestSpringBootApplication            : Started RestSpringBootApplication in 5.143 seconds (JVM running for 6.297)
+2018-06-20 12:13:28.028  INFO 11004 --- [http-nio-2018-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-20 12:13:28.029  INFO 11004 --- [http-nio-2018-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-20 12:13:28.050  INFO 11004 --- [http-nio-2018-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2018-06-20 12:14:31.414  INFO 11004 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2018-06-20 12:14:31.415  INFO 11004 --- [RMI TCP Connection(2)-127.0.0.1] ationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 12:13:16 IST 2018]; root of context hierarchy
+2018-06-20 12:14:31.423  INFO 11004 --- [RMI TCP Connection(2)-127.0.0.1] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-06-20 12:14:49.661  INFO 11113 --- [main] c.r.RestSpringBootApplication            : Starting RestSpringBootApplication on bblpt0420 with PID 11113 (/home/muthuselvank/Documents/workspace-sts-3.9.3.RELEASE/RestSpringBoot/target/classes started by muthuselvank in /home/muthuselvank/Documents/workspace-sts-3.9.3.RELEASE/RestSpringBoot)
+2018-06-20 12:14:49.666  INFO 11113 --- [main] c.r.RestSpringBootApplication            : No active profile set, falling back to default profiles: default
+2018-06-20 12:14:50.157  INFO 11113 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 12:14:50 IST 2018]; root of context hierarchy
+2018-06-20 12:14:51.549  INFO 11113 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-06-20 12:14:52.050  INFO 11113 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 2018 (http)
+2018-06-20 12:14:52.065  INFO 11113 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2018-06-20 12:14:52.066  INFO 11113 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.6
+2018-06-20 12:14:52.180  INFO 11113 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-06-20 12:14:52.180  INFO 11113 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2029 ms
+2018-06-20 12:14:52.480  INFO 11113 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-06-20 12:14:52.488  INFO 11113 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-06-20 12:14:52.490  INFO 11113 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-06-20 12:14:52.491  INFO 11113 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-06-20 12:14:52.491  INFO 11113 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-06-20 12:14:53.233  INFO 11113 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@59d016c9: startup date [Wed Jun 20 12:14:50 IST 2018]; root of context hierarchy
+2018-06-20 12:14:53.327  INFO 11113 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/hello]}" onto public java.lang.String com.rideestimate.HomeController.hello()
+2018-06-20 12:14:53.330  INFO 11113 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/]}" onto public java.lang.String com.rideestimate.HomeController.index()
+2018-06-20 12:14:53.331  INFO 11113 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/search],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.rideestimate.HomeController.save()
+2018-06-20 12:14:53.340  INFO 11113 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-06-20 12:14:53.341  INFO 11113 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-06-20 12:14:53.432  INFO 11113 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 12:14:53.432  INFO 11113 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 12:14:53.516  INFO 11113 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-06-20 12:14:54.807  INFO 11113 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-06-20 12:14:54.921  INFO 11113 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 2018 (http)
+2018-06-20 12:14:54.929  INFO 11113 --- [main] c.r.RestSpringBootApplication            : Started RestSpringBootApplication in 5.685 seconds (JVM running for 6.461)
+2018-06-20 12:14:59.298  INFO 11113 --- [http-nio-2018-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-06-20 12:14:59.298  INFO 11113 --- [http-nio-2018-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-06-20 12:14:59.337  INFO 11113 --- [http-nio-2018-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
